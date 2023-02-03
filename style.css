@@ -1,0 +1,164 @@
+body {
+  background: #00ADB5;
+  color: #222831;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+h1 {
+  color: #393E46;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+div {
+  background: #eeeeee;                         /* White background */
+  padding: 30px;                    /* Internal space */
+  border-radius: 6px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 605px;        /* Set the width */
+  margin: 12px auto;      /* Set automatic margins on right/left */
+}
+
+.bio {
+  background: #eeeeee;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 6px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 605px;        /* Set the width */
+  margin: 12px auto;      /* Set automatic margins on right/left */
+}
+
+h2 {
+  color: #393E46;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  border-top: 2px solid #393E46;
+  border-right: 2px solid #393E46;
+  border-bottom: 2px solid #393E46;
+  border-left: 2px solid #393E46;
+  margin: 0 auto;
+  width: 606px;
+  height: 404px;
+}
+
+
+p {
+  color: #393E46;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.links {
+  background: #393E46;
+  color: #eeeeee;
+  text-decoration: none;                        /* White background */
+  padding: 12px;                             /* Internal space */
+  border-radius: 8px;                        /* Small radius */
+  display: inline-block;
+  width: 585px;
+  margin: 5px auto;
+  text-align: center;
+}
+.readmore {
+  background: #393E46;
+  color: #eeeeee;
+  text-decoration: none;                        /* White background */
+  padding: 12px;                             /* Internal space */
+  border-radius: 8px;                        /* Small radius */
+  display: inline-block;
+  width: 585px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  h1 {
+    color: #393E46;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0;
+    text-align: center;
+  }
+
+  div {
+    background: #eeeeee;                         /* White background */
+    padding: 25px;                    /* Internal space */
+    border-radius: 6px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+    width: 400px;        /* Set the width */
+    margin: 12px auto;      /* Set automatic margins on right/left */
+  }
+
+  .bio {
+    background: #eeeeee;                         /* White background */
+    padding: 25px;                             /* Internal space */
+    border-radius: 6px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+    width: 400px;        /* Set the width */
+    margin: 12px auto;      /* Set automatic margins on right/left */
+  }
+
+  h2 {
+    color: #393E46;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    border-top: 2px solid #393E46;
+    border-right: 2px solid #393E46;
+    border-bottom: 2px solid #393E46;
+    border-left: 2px solid #393E46;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+  }
+
+
+  p {
+    color: #393E46;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .links {
+    background: #393E46;
+    color: #eeeeee;
+    text-decoration: none;                        /* White background */
+    padding: 8px;                             /* Internal space */
+    border-radius: 8px;                        /* Small radius */
+    display: inline-block;
+    width: 385px;
+    margin: 5px auto;
+    text-align: center;
+  }
+  .readmore {
+    background: #393E46;
+    color: #eeeeee;
+    text-decoration: none;                        /* White background */
+    padding: 8px;                             /* Internal space */
+    border-radius: 8px;                        /* Small radius */
+    display: inline-block;
+    width: 385px;
+    margin: 5px auto;
+    text-align: center;
+  }
+}
+
+
+/* Path: profile/index.html */
